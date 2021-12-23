@@ -1,12 +1,12 @@
 {
-    "theme_color": "#365314",
+    "theme_color": "#164e63",
     "background_color": "#fff",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Kam se dneska vydat?",
-    "short_name": "Kam na tripec?",
-    "description": "Netušíš, kam se dneska vydat na tripec? Nech si poradit!",
+    "name": "Jaký citít číst?",
+    "short_name": "Co číst?",
+    "description": "Netušíš, jaký citát si dneska přečíst? Nech si poradit!",
     "icons": [
         {
             "src": "/icon/icon-192x192.png",
