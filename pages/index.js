@@ -12,8 +12,8 @@ function getText() {
 
 const name = "Kam se dneska vydat?";
 const description = "Netušíš, kam se dneska vydat na tripec? Nech si poradit!";
-const theme_color = "#fbbf24";
-const url = "https://co-jist.vercel.app/";
+const theme_color = "#365314";
+const url = "https://kam-jet.vercel.app/";
 
 export default function Home() {
   const [text, setText] = useState("Fakt netušíš?");
@@ -72,7 +72,7 @@ export default function Home() {
         </h1>
         <button
           onClick={() => setText(getText())}
-          className="p-4 bg-amber-400 text-amber-900 rounded-full drop-shadow-xl font-semibold uppercase text-xl"
+          className="p-4 bg-lime-300 text-lime-900 rounded-full drop-shadow-xl font-semibold uppercase text-xl"
         >
           poraď mi
         </button>
