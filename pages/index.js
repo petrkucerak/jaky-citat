@@ -2,10 +2,8 @@ import Head from "next/head";
 import { useState } from "react";
 
 const data = ["brambory", "hrusky", "nudle"];
-let text = "Tak co to dneska bude?";
 
 function randomIntFromInterval(min, max) {
-  // min and max included
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
@@ -32,7 +30,7 @@ export default function Home() {
         >
           poraď mi
         </button>
-        <div>{text}</div>
+        <div className="text-lg mt-5 text-center">{text}</div>
       </main>
     </div>
   );
