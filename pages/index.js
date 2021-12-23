@@ -13,7 +13,7 @@ function getText() {
 const name = "Co dneska vařit?";
 const description = "Netušíš, co dneska uvařit? Nech si poradit!";
 const theme_color = "#fbbf24";
-const url = "url";
+const url = "https://co-jist.vercel.app/";
 
 export default function Home() {
   const [text, setText] = useState("Fakt netušíš?");
