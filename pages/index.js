@@ -10,8 +10,8 @@ function getText() {
   return data[randomIntFromInterval(0, data.length - 1)];
 }
 
-const name = "Co dneska vařit?";
-const description = "Netušíš, co dneska uvařit? Nech si poradit!";
+const name = "Kam se dneska vydat?";
+const description = "Netušíš, kam se dneska vydat na tripec? Nech si poradit!";
 const theme_color = "#fbbf24";
 const url = "https://co-jist.vercel.app/";
 
@@ -68,7 +68,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center min-h-screen justify-center">
         <h1 className="text-4xl font-bold mb-8 text-center dark:text-white">
-          Co dneska vařit?
+          Kam na tripec?
         </h1>
         <button
           onClick={() => setText(getText())}

@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Co dneska va\u0159it?",
-    "short_name": "Co va\u0159it?",
-    "description": "Netus\u00ed\u0161, co dneska uva\u0159it? Nech si poradit!",
+    "name": "Kam se dneska vydat?",
+    "short_name": "Kam na tripec?",
+    "description": "Netušíš, kam se dneska vydat na tripec? Nech si poradit!",
     "icons": [
         {
             "src": "/icon/icon-192x192.png",
