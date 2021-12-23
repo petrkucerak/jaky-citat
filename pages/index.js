@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
-
-const data = ["brambory", "hrusky", "nudle"];
+import {data} from "/pages/data/data.js"
 
 function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
@@ -12,16 +11,16 @@ function getText() {
 }
 
 export default function Home() {
-  const [text, setText] = useState("Co to denska bude?");
+  const [text, setText] = useState("Fakt netušíš?");
   return (
-    <div className="w-full">
+    <div className="w-full dark:bg-black">
       <Head>
         <title>Co dneska vařit?</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex flex-col items-center min-h-screen justify-center">
-        <h1 className="text-4xl font-bold mb-8 text-center">
+        <h1 className="text-4xl font-bold mb-8 text-center dark:text-white">
           Co dneska vařit?
         </h1>
         <button
@@ -30,7 +29,7 @@ export default function Home() {
         >
           poraď mi
         </button>
-        <div className="text-lg mt-5 text-center">{text}</div>
+        <div className="text-lg mt-5 text-center dark:text-white mx-5">{text}</div>
       </main>
     </div>
   );
