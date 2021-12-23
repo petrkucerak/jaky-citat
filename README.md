@@ -1,1 +1,1 @@
-# christmas-generator
+# Christmas generator
