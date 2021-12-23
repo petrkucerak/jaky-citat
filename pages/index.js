@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         <button
           onClick={() => setText(getText())}
-          className="p-4 bg-emerald-600 rounded-full drop-shadow-xl text-emerald-50 font-semibold uppercase text-xl"
+          className="p-4 bg-amber-400 text-amber-900 rounded-full drop-shadow-xl font-semibold uppercase text-xl"
         >
           poraď mi
         </button>

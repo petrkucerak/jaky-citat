@@ -1,0 +1,32 @@
+{
+    "theme_color": "#fbbf24",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Co dneska va\u0159it?",
+    "short_name": "Co va\u0159it?",
+    "description": "Netus\u00ed\u0161, co dneska uva\u0159it? Nech si poradit!",
+    "icons": [
+        {
+            "src": "/icon/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
